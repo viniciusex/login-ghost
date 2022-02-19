@@ -80,8 +80,7 @@ input::placeholder {
 .botao:hover {
     background-color: #2dcf94;
     text-decoration: underline;
-}
-@media(max-width:412px) {
+}@media(max-width: 600px) {
     .container {
         width: 100vw;
         height: 100vh;
@@ -89,6 +88,34 @@ input::placeholder {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-bottom: 160px;
+    }
+    .sessao-imagem img {
+        width: 500px;
+        height: 360px;
+     }
+     .login {
+         width: 400px;
+         margin-bottom: 50px;
+         margin-left: 20px;
+         margin-right: 20px;
+         padding-bottom: 50px;
+     }
+     .botao {
+         font-size: 14px;
+     }
+
+
+}
+@media(max-width: 430px ) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 160px;
     }
     .sessao-imagem img {
         width: 400px;
@@ -99,9 +126,10 @@ input::placeholder {
          margin-bottom: 50px;
          margin-left: 20px;
          margin-right: 20px;
-     }
-     .botao {
-         font-size: 14px;
-     }
-
+         padding-bottom: 50px;
+        }
+        .botao {
+            font-size: 14px;
+        }
+   
 }
